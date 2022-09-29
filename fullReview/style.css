@@ -1,0 +1,132 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+
+@font-face {
+     font-family: Vazir;
+     src: url(assets/vazir-font-v27.2.2-Fontjo.com/Vazir-Bold.woff2)format('woff2'),
+          url(assets/vazir-font-v27.2.2-Fontjo.com/Vazir-Bold.woff) format('woff'),
+          url(assets/vazir-font-v27.2.2-Fontjo.com/Vazir-Thin.ttf) format('ttf'),
+          url(assets/vazir-font-v27.2.2-Fontjo.com/Vazir-Black.eot);
+}
+
+* {
+     font-family: Vazir;
+}
+
+body {
+     background-color: rgb(223, 226, 225);
+}
+
+.container {
+     width: 100%;
+}
+
+header {
+     display: flex;
+     align-items: center;
+     background-color: #101213;
+     justify-content: space-between;
+     padding: 0 15px;
+     overflow: hidden;
+     margin-bottom: 20px;
+     flex-direction: row-reverse;
+     position: relative;
+     height: 45px;
+     width: 100%;
+     z-index: 2;
+}
+
+.logo {
+     width: 50px;
+     height: 50px;
+     transform: translate(-100px);
+     animation: go 10s infinite ease-in-out;
+     position: absolute;
+     z-index: -1;
+}
+
+@keyframes go {
+     100% {
+          transform: translate(2000px);
+     }
+}
+
+
+#first-ul {
+     display: flex;
+     justify-content: space-around;
+     width: 250px;
+     list-style: none;
+}
+
+#first-ul li a {
+     text-decoration: none;
+     color: white;
+     font-size: 15px;
+     font-weight: 700;
+}
+
+
+main {
+     width: 100%;
+     position: relative;
+}
+
+article {
+     width: 100%;
+     padding: 20px;
+}
+
+main article img {
+     width: 400px;
+     height: 250px;
+}
+
+.list {
+     list-style: none;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     flex-wrap: wrap;
+}
+
+
+.list li {
+     background-color: rgb(40, 38, 37);
+     display: inline-block;
+     padding: 5px;
+     margin: 5px;
+}
+
+
+
+.list li a {
+     text-decoration: none;
+     color: #ffffff;
+     font-size: 12px;
+
+}
+
+#second-ul li:hover {
+     background-color: rgb(210, 207, 32);
+}
+
+#third-ul li {
+     background-color: #370456;
+}
+
+#third-ul li:hover {
+     background-color: lightskyblue;
+}
+
+#fourth-ul li {
+     background-color: brown;
+}
+
+#fourth-ul li:hover {
+     background-color: rgb(92, 23, 98);
+}
