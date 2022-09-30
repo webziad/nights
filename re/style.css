@@ -171,3 +171,11 @@ section img {
      padding: 2px 5px;
      border-radius: 50%;
 }
+
+@media(max-width:580px) {
+     section {
+          width: 85%;
+          text-align: center;
+          border: 2px solid black;
+     }
+}
