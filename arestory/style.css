@@ -130,6 +130,7 @@
 .social img {
      height: 45px;
      cursor: pointer;
+     z-index:2;
 }
 
 .card:hover::before {
