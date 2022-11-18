@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+          integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+     <script src="script.js" defer></script>
+</head>
+
+<body dir="rtl">
+     <!--menu bars -->
+     <nav class="navbar navbar-expand-lg navbar-light" style="background-color:rgba(243, 238, 238, 0.239);">
+          <div class="container-fluid">
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <span id="start"></span>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                         <li id="home" class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">کلبه</a>
+                         </li>
+
+                         <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                   data-bs-toggle="dropdown" aria-expanded="false">
+                                   گویندگان
+                              </a>
+                              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                   <li><a class="dropdown-item" href="#"> عارِفه</a> <img src="assets/arefe.PNG" alt=""
+                                             class="narrator"></li>
+                                   <li><a class="dropdown-item" href="#">آریا </a> <img src="assets/boyone.PNG" alt=""
+                                             class="narrator"></li>
+                                   <li><a class="dropdown-item" href="#"> شَهبُد </a> <img src="assets/boytwo.PNG"
+                                             alt="" class="narrator"></li>
+
+                                   <li><a class="dropdown-item" href="#">کار تیمی </a> <img src="assets/team.png" alt=""
+                                             class="narrator"></li>
+
+
+                              </ul>
+                         </li>
+
+
+
+                         <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                   data-bs-toggle="dropdown" aria-expanded="false">
+                                   دنیای قصه ها
+                              </a>
+                              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                   <li><a class="dropdown-item" href="html-file/html.html">داستان های ایرانی</a> <img
+                                             src="assets/irani.PNG" alt="" class="narrator"></li>
+                                   <li><a class="dropdown-item" href="#">داستان های خارجی </a><img
+                                             src="assets/foerian.PNG" alt="" class="narrator"></li>
+                                   <li><a class="dropdown-item" href="#"> قصه های سه دقیقه ای </a><img
+                                             src="assets/story.PNG" alt="" class="narrator"></li>
+
+
+                              </ul>
+                         </li>
+
+
+
+
+
+                         <li class="nav-item dropdown">
+                              <a class="nav-link" id="golden" href="#">
+                                   مسابقه ها
+                              </a>
+                         </li>
+
+
+
+                         <li class="nav-item dropdown">
+                              <a class="nav-link" href="#">
+                                   درباره ما
+                              </a>
+
+                         </li>
+
+
+
+                         <li class="nav-item">
+                              <a class="nav-link " aria-current="page" href="myform.html" target="_blank">برامون یه پیام
+                                   بفرست :) </a>
+                         </li>
+
+                    </ul>
+
+               </div>
+               <img class="logo" id="logo" height="30px" src="assets/logo.PNG" alt="">
+          </div>
+     </nav>
+
+     <!--
+     header picture
+-->
+     <div class="slide-pic">
+          <h2 style="color: rgb(97, 95, 95);">
+               قصه های خاله عارفه و شاگرداش
+
+
+
+          </h2>
+          <p style="color:rgb(143, 0, 0);" class="subtitle">با
+               <span style="color:orange;">هم</span>
+               <span style="color:rgb(255, 0, 0);">سفر</span>
+               <span style="color:rgb(7, 193, 81);"> کنیم</span>
+               <span style="color:rgb(208, 0, 255);"> به</span>
+               <span style="color:rgb(255, 0, 195);"> دنیای</span>
+               <span style="color:rgb(60, 255, 0);">رنگارنگ</span>
+               <span style="color:rgb(5, 180, 255);">قصه ها</span>
+          </p>
+          <input type="text" placeholder="    دنبال چی هستی؟" id="search">
+
+     </div>
+
+
+
+
+     <a href="#start"><img src="assets/arrow.png" class="up" alt=""></a>
+     <a href="#end"><img src="assets/arrow.png" class="down" alt=""></a>
+
+
+
+
+     <!--course items -->
+     <div id="courseList" class="container-fluid  row">
+          <div class="card item" style="width: 18rem;">
+               <img src="assets/mainbooks/alice.jpg" class="card-img-top mt-2" alt="...">
+               <div class="card-body">
+                    <p class="card-text">آلیس در سرزمین عجایب</p>
+               </div>
+          </div>
+          <div class="card item" style="width: 18rem;">
+               <img src="assets/mainbooks/hansel.jpg" class="card-img-top mt-2" alt="...">
+               <div class="card-body">
+                    <p class="card-text">هانسل و گرتل </p>
+               </div>
+          </div>
+          <div class="card item" style="width: 18rem;">
+               <img src="assets/mainbooks/rostam-dragon.jpg" class="card-img-top mt-2" alt="...">
+               <div class="card-body">
+                    <p class="card-text"> رستم و اژدها</p>
+               </div>
+          </div>
+
+          <div class="card item" style="width: 18rem;">
+               <img src="assets/mainbooks/jack.jpg" class="card-img-top mt-2" alt="...">
+               <div class="card-body">
+                    <p class="card-text">جک و لوبیای سحر آمیز</p>
+               </div>
+          </div>
+
+          <div class="card item" style="width: 18rem;">
+               <img src="assets/mainbooks/rostam-sohrab.jpg" class="card-img-top mt-2 " alt="...">
+               <div class="card-body">
+                    <p class="card-text">رستم و سهراب </p>
+               </div>
+          </div>
+
+          <div class="card item" style="width: 18rem;">
+               <img src="assets/mainbooks/shenel.jpg" class="card-img-top mt-2" alt="...">
+               <div class="card-body">
+                    <p class="card-text">شنل قرمزی </p>
+               </div>
+          </div>
+
+
+
+          <div class="card item" style="width: 18rem;">
+               <img src="assets/mainbooks/pinokio.jpg" class="card-img-top mt-2" alt="...">
+               <div class="card-body">
+                    <p class="card-text"> پینوکیو </p>
+               </div>
+          </div>
+
+          <div class="card item" style="width: 18rem;">
+               <img src="assets/mainbooks/puss.jpg" class="card-img-top mt-2" alt="...">
+               <div class="card-body">
+                    <p class="card-text"> گربه چکمه پوش </p>
+               </div>
+          </div>
+
+          <div class="card item" style="width: 18rem;">
+               <img src="assets/mainbooks/little-prince.jpg" class="card-img-top mt-2" alt="...">
+               <div class="card-body">
+                    <p class="card-text">شازده کوچولو</p>
+               </div>
+          </div>
+
+          <div class="card item" style="width: 18rem;">
+               <img src="assets/mainbooks/rosta-witch.jpg" class="card-img-top mt-2" alt="...">
+               <div class="card-body">
+                    <p class="card-text">رستم و جادوگر </p>
+               </div>
+          </div>
+
+          <div class="card item" style="width: 18rem;">
+               <img src="assets/mainbooks/rostam-beast.jpg" class="card-img-top mt-2" alt="...">
+               <div class="card-body">
+                    <p class="card-text"> رستم و دیو </p>
+               </div>
+          </div>
+
+          <div class="card item" style="width: 18rem;">
+               <img src="assets/mainbooks/isabel.jpg" class="card-img-top mt-2" alt="...">
+               <div class="card-body">
+                    <p class="card-text"> ایزابل وگرگ ها </p>
+               </div>
+          </div>
+
+
+
+     </div>
+
+     <footer>
+          <div class="waves">
+               <div class="wave" id="wave1"></div>
+               <div class="wave" id="wave2"></div>
+               <div class="wave" id="wave3"></div>
+               <div class="wave" id="wave4"></div>
+          </div>
+          <p id="foot-text">
+               من ترجیح میدم توی دنیایی باشم که واقعا آدم کوتوله ها ، پری ها ، حیوونای سخنگو و همه اون موجودات افسانه ای
+               وجود داشته باشند.
+               <br>
+               <strong> خیال پردازی رو فراموش نکنیم
+               </strong>
+          </p>
+
+          <br>
+
+     </footer>
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+          crossorigin="anonymous"></script>
+
+
+     <span id="end"></span>
+</body>
+
+</html>

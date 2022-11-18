@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+          integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+     <title>Document</title>
+     <style>
+          .logo {
+               margin: 1rem;
+               z-index: 10;
+               position: fixed;
+          }
+     </style>
+</head>
+
+<body dir="rtl">
+
+     <!--message-->
+     <a href="index.html" target="_parent"> <img class="logo" id="logo" height="30px" src="assets/logo.PNG" alt=""></a>
+     <img src="cloud.jfif" alt="" class="cloud">
+     <div style="width: 80%;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);">
+          <h5 class="mb-5">یه پیام برام بنویس:) </h5>
+          <form class="row g-3" action="https://formspree.io/f/xbjbdjgq" method="POST">
+               <div class="col-md-6">
+
+                    <label for="firstName" class="form-label">اسمت</label>
+                    <input type="text" class="form-control" id="firstName" name="firstName" required>
+               </div>
+
+               <div class="col-md-8">
+                    <label for="emailInfo" class="form-label">ایمیلت</label>
+                    <input type="email" class="form-control" id="emailInfo" name="email" required>
+               </div>
+               <div class="col-md-4">
+                    <label for="phoneNumber" class="form-label">شماره ات</label>
+                    <input type="text" class="form-control" id="phoneNumber" placeholder="98905235000+"
+                         name="phoneNumber">
+               </div>
+
+               <div class="col-md-12">
+                    <label for="comments" class="form-label">پیام شما</label>
+                    <textarea placeholder=" سریع میخونم و اگه آدرس ایمیلت درست باشه بهت جواب میدم." name="text"
+                         class="form-control" id="comments" rows="3"></textarea>
+               </div>
+               <div class="col-md-12">
+                    <button type="submit" class="btn btn-primary"> بفرست برای محمد !</button>
+               </div>
+          </form>
+     </div>
+
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+          crossorigin="anonymous"></script>
+</body>
+
+</html>
