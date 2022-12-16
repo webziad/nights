@@ -1,0 +1,163 @@
+html {
+    background: #333;
+    font-family: Verdana, sans-serif;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url(assets/vazir-font-v27.2.2-Fontjo.com/Vazir-Bold.woff2)format('woff2'),
+        url(assets/vazir-font-v27.2.2-Fontjo.com/Vazir-Bold.woff) format('woff'),
+        url(assets/vazir-font-v27.2.2-Fontjo.com/Vazir-Thin.ttf) format('ttf'),
+        url(assets/vazir-font-v27.2.2-Fontjo.com/Vazir-Black.eot);
+}
+
+* {
+    font-family: Vazir;
+}
+
+
+
+body {
+    background: rgb(255, 255, 255);
+    padding: 1em;
+    border-radius: 1em;
+}
+
+a {
+    color: #151e34;
+}
+
+h2 {
+    margin-bottom: 1em;
+}
+
+.passage-audio {
+    height: 2em;
+    background-color: #FFBF00;
+}
+
+#passage-audio {
+    width: 100%;
+    max-height: 2em;
+}
+
+.photo {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+#passage-text.speaking {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.autofocus-current-word,
+.playback-rate {
+    font-size: smaller;
+}
+
+.autofocus-current-word label,
+.playback-rate label {
+    font-weight: bold;
+}
+
+q {
+    quotes: "“""”""‘""’";
+}
+
+article {
+    margin-top: 100px;
+}
+
+
+.section-heading {
+    display: none;
+}
+
+.flower {
+    width: 150px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.passage p {
+    line-height: 2.4rem;
+    padding: .5rem;
+    text-align: right;
+    direction: rtl;
+    color: #253832;
+}
+
+.verse-start {
+    line-height: 0;
+}
+
+.initialized span[data-begin]:focus,
+.initialized span[data-begin]:hover {
+    color: white;
+}
+
+.initialized span[data-begin].speaking {
+    color: white;
+}
+
+.initialized span[data-begin] {
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+}
+
+
+
+article>footer {
+    border-top: solid 1px rgb(94, 93, 93);
+    padding-top: 1em;
+    margin-top: 1em;
+}
+
+footer {
+    margin-bottom: 0.5em;
+    line-height: 1.4em;
+    font-size: small;
+}
+
+footer img {
+    vertical-align: text-bottom;
+}
+
+.passage {
+    background-color: #f29650;
+    border-radius: 1rem;
+}
+
+audio::-webkit-media-controls-panel,
+video::-webkit-media-controls-panel {
+    background-color: #FFBF00;
+
+}
+
+article {
+    position: relative;
+    width: 100%;
+    margin-top: 0;
+
+}
+
+.audio-player {
+    margin-top: 0;
+    background-color: #EB455F;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 1rem;
+
+}

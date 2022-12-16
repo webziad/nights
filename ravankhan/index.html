@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+          integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+     <script src="script.js" defer></script>
+     <title> قصه های خوب برای بچه های خوب</title>
+</head>
+
+<body dir="rtl">
+     <!--menu bars -->
+     <nav class="navbar navbar-expand-lg navbar-light" style="background-color:rgba(243, 238, 238, 0.239);">
+          <div class="container-fluid">
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <span id="start"></span>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                         <li id="home" class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">کلبه</a>
+                         </li>
+
+                         <li class="nav-item dropdown" hidden>
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                   data-bs-toggle="dropdown" aria-expanded="false">
+                                   گویندگان
+                              </a>
+                              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                   <li><a class="dropdown-item" target="_blank" href="pegah.html"> خاله پگاه</a> <img
+                                             src="assets/arefe.PNG" alt="" class="narrator"></li>
+
+                                   <li><a class="dropdown-item" href="maryam.html"> خاله مریم </a> <img
+                                             src="assets/virgo.png" alt="" class="narrator"></li>
+
+                                   <li><a class="dropdown-item" href="#">خاله شیما</a> <img src="assets/beauty.png"
+                                             alt="" class="narrator"></li>
+
+
+                              </ul>
+                         </li>
+
+
+
+                         <li class="nav-item dropdown" hidden>
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                   data-bs-toggle="dropdown" aria-expanded="false">
+                                   دنیای قصه ها
+                              </a>
+                              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                   <li><a class="dropdown-item" href="html-file/html.html">داستان های ایرانی</a> <img
+                                             src="assets/irani.PNG" alt="" class="narrator"></li>
+                                   <li><a class="dropdown-item" href="#">داستان های خارجی </a><img
+                                             src="assets/foerian.PNG" alt="" class="narrator"></li>
+                                   <li><a class="dropdown-item" href="#"> قصه های سه دقیقه ای </a><img
+                                             src="assets/story.PNG" alt="" class="narrator"></li>
+
+
+                              </ul>
+                         </li>
+
+
+
+
+
+                         <li class="nav-item dropdown" hidden>
+                              <a class="nav-link" id="golden" href="#">
+                                   مسابقه ها
+                              </a>
+                         </li>
+
+
+
+                         <li class="nav-item dropdown" hidden>
+                              <a class="nav-link" href="#">
+                                   درباره ما
+                              </a>
+
+                         </li>
+
+
+
+                         <li class="nav-item">
+                              <a class="nav-link " aria-current="page" href="myform.html" target="_blank">برامون یه پیام
+                                   بفرست :) </a>
+                         </li>
+
+                    </ul>
+
+               </div>
+               <img class="logo" id="logo" height="30px" src="assets/logo.PNG" alt="">
+          </div>
+     </nav>
+
+     <!--
+     header picture
+-->
+     <div class="slide-pic">
+          <img class="banner" src="assets/banner.png" alt="">
+          <h2 style="color: rgb(97, 95, 95);">
+               قصه های خوب برای بچه های خوب
+
+          </h2>
+          <p style="color:rgb(143, 0, 0);" class="subtitle">با
+               <span style="color:orange;">هم</span>
+               <span style="color:rgb(255, 0, 0);">سفر</span>
+               <span style="color:rgb(7, 193, 81);"> کنیم</span>
+               <span style="color:rgb(208, 0, 255);"> به</span>
+               <span style="color:rgb(255, 0, 195);"> دنیای</span>
+               <span style="color:rgb(60, 255, 0);">رنگارنگ</span>
+               <span style="color:rgb(5, 180, 255);">قصه ها</span>
+          </p>
+          <input type="text" placeholder=" جست وجو" id="search">
+
+     </div>
+
+
+
+
+     <a href="#start"><img src="assets/arrow.png" class="up" alt=""></a>
+     <a href="#end"><img src="assets/arrow.png" class="down" alt=""></a>
+
+
+
+
+     <!--course items -->
+     <div id="storyList" class="container-fluid  row">
+          <div class="card item" style="width: 18rem;">
+               <img src="assets/mainbooks/hezar.png" class="card-img-top mt-2" alt="..." style="border-radius: 0;">
+               <div class="card-body">
+                    <p class="nar">گوینده:نساء جابرابن انصاری</p>
+                    <img src="assets/Nesa-ansari.jpg" alt="">
+               </div>
+               <p class="card-text" style="font-size:.6rem;text-align: right;z-index: 100;">
+                    امروز قراره حیوونای جنگل برن به خرید اما نمیدونید که چه بلایی قراره سرشون بیاد وای وای وای
+                    <br>
+                    <br>
+                    <a href="pegah.html">ادامه قصه :) </a>
+               </p>
+
+          </div>
+
+
+
+
+
+
+     </div>
+
+     <footer>
+          <div class="waves">
+               <div class="wave" id="wave1"></div>
+               <div class="wave" id="wave2"></div>
+               <div class="wave" id="wave3"></div>
+               <div class="wave" id="wave4"></div>
+          </div>
+          <p id="foot-text">
+
+          <div class="social">
+               <img src="assets/instagram.PNG" alt="">
+               <img src="assets/telegram.PNG" alt="">
+               <img src="assets/facebook.PNG" alt="">
+          </div>
+          <br>
+          <strong>
+          </strong>
+          </p>
+
+          <br>
+
+     </footer>
+     <div align="center" class="simp-footer">Made with 💖 &amp; 🙌 by MohammadV.H</div>
+
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+          crossorigin="anonymous"></script>
+
+
+     <span id="end"></span>
+</body>
+
+</html>
